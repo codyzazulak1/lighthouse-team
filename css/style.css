@@ -2,9 +2,11 @@ body {
   font-family: Verdana;
   font-size: 1.5em; }
   body h1 {
-    color: red; }
+    color: red;
+    text-align: center; }
   body #team-members {
-    clear: both; }
+    clear: both;
+    text-align: center; }
   body .member {
     float: left;
     border: 1px solid gray;
@@ -20,7 +22,7 @@ body {
       -o-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
       transform: rotate(360deg);
-      opacity: 0.8; }
+      opacity: 1; }
     body .member:nth-child(even):hover img {
       border-radius: 50%;
       -webkit-transform: rotate(-360deg);
@@ -28,7 +30,7 @@ body {
       -o-transform: rotate(-360deg);
       -ms-transform: rotate(-360deg);
       transform: rotate(-360deg);
-      opacity: 0.5; }
+      opacity: 1; }
     body .member .name {
       position: relative;
       top: 200px;

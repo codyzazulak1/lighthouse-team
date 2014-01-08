@@ -4,10 +4,12 @@ body {
 
   h1 {
     color: red;
+    text-align: center;
   }
 
   #team-members {
     clear: both;
+    text-align: center;
   }
 
   .member {
@@ -27,7 +29,7 @@ body {
         -o-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
-        opacity: 0.8;
+        opacity: 1;
       }
     }
 
@@ -39,7 +41,7 @@ body {
         -o-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
         transform: rotate(-360deg);
-        opacity: 0.5;
+        opacity: 1;
       }
     }
 
