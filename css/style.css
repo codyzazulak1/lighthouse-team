@@ -12,7 +12,21 @@ body {
     padding: 6px; }
     body .member img {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      box-shadow: 5px 5px 5px #888888;
+      border-radius: 25%;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      body .member img:hover {
+        border-radius: 50%;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg); }
   body .member div.name {
     text-align: center; }
   body .original {
